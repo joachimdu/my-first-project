@@ -21,3 +21,11 @@ In production data engineering environments, data is stored in cloud object stor
 3. Interoperability - Enables downstream integration with Athena, BigQuery and Dashboards
 
 This project bridges local ETL work with real-world cloud architecture.
+
+# Core Skills and Concepts
+## Skill / Concept Description
+- Cloud Storage Fundamentals: Understanding buckets, objects and storage classes
+- IAM Roles & Credentials: Configuring least privilege access to cloud resources
+- SDK Usage (boto3 / google-cloud-storage): Using python SDKs to programmatically upload files
+- Secure Credential Management: Storing keys safely using environment variables or .env files
+ETL Extension: Adding a cloud upload stage as the final step of your ETL process.
